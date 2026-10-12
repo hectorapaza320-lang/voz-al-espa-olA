@@ -1,0 +1,20 @@
+VOZ AL ESPAÑOL — PROTOTIPO INICIAL
+
+Qué hace esta versión:
+- Permite seleccionar un archivo de video y reproducirlo en el navegador.
+- Permite abrir un enlace en otra pestaña (no descarga videos de plataformas).
+- Permite escribir o pegar texto en español y descargar un archivo SRT básico.
+- No sube el video a un servidor.
+- Todavía NO reconoce la voz, NO traduce automáticamente y NO genera doblaje.
+
+CÓMO PROBARLO SOLO CON EL CELULAR:
+1. Descomprime el ZIP con el administrador de archivos del teléfono.
+2. Para probar la interfaz, abre index.html con el navegador si Android lo permite.
+3. Para instalar como PWA y que funcione el modo sin conexión, los archivos deben publicarse en una web HTTPS. Una forma habitual es crear un repositorio y desplegarlo con un servicio de hosting estático gratuito; el proceso se puede hacer desde el navegador del teléfono.
+4. En Chrome Android, abre la dirección HTTPS publicada, toca el menú ⋮ y busca "Instalar aplicación" o "Añadir a pantalla de inicio".
+
+IMPORTANTE:
+- Este ZIP contiene código fuente, no un APK instalable.
+- manifest.json no incluye iconos todavía; para una publicación más pulida hay que añadir iconos de 192x192 y 512x512.
+- El service worker y la instalación PWA requieren servir los archivos por HTTPS o localhost.
+- La traducción automática y el doblaje se incorporarán en una etapa posterior mediante motores de voz/traducción; algunos servicios tienen límites o costos.

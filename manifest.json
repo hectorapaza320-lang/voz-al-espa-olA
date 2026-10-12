@@ -1,0 +1,11 @@
+{
+  "name": "Voz al Español",
+  "short_name": "Voz Español",
+  "description": "Prototipo para preparar subtítulos en español para videos.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#111827",
+  "icons": []
+}
